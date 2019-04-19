@@ -7,7 +7,7 @@ import java.util.Set;
 public class Common {
 
 	public static final String PREFS_FILE = "Device";
-	public static final String PACKAGE_NAME = "com.spp.xposeddemo";
+	public static final String PACKAGE_NAME = "com.spp.changephone";
 
 	public static final String PREFS_APPS = "CustomizeApps";
 	public static final String PREFS_KEYWORDS = "CustomizeKeywords";
