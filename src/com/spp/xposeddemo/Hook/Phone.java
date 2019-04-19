@@ -41,7 +41,7 @@ public class Phone {
 	public void Bluetooth(XC_LoadPackage.LoadPackageParam loadPkgParam) {
 
 		String LYMAC = SharedPref.getXValue("LYMAC");
-		if (LYMAC == null | LYMAC.length() == 0)
+		if (LYMAC == null || LYMAC.length() == 0)
 			return;
 		try {
 
